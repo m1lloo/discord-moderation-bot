@@ -1,4 +1,5 @@
 import os
+from .functions import parse_role_ids
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -20,8 +21,7 @@ ENABLE_ANTISPAM = os.getenv("ENABLE_ANTISPAM", "true").lower() == "true"
 ENABLE_WORD_FILTER = os.getenv("ENABLE_WORD_FILTER", "true").lower() == "true"
 ENABLE_JOIN_LOG = os.getenv("ENABLE_JOIN_LOG", "true").lower() == "true"
 
-def parse_role_ids(env_var):
-    return [int(id.strip()) for id in os.getenv(env_var, "").split(",") if id.strip()]
+
 
 WARN_ROLES = parse_role_ids("WARN_ROLES")
 TIMEOUT_ROLES = parse_role_ids("TIMEOUT_ROLES")

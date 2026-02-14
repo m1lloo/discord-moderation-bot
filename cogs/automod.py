@@ -49,9 +49,8 @@ class AutoMod(commands.Cog):
         
         if is_automod_exempt(message.author):
             return
-        
-        guild = message.guild
-        if not guild:
+            
+        if not message.guild:
             return
         
         if ENABLE_ANTISPAM:
