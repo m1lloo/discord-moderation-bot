@@ -1,5 +1,6 @@
 import discord
 from utils.config import OWNER_IDS, IMMUNE_ROLES, AUTOMOD_EXEMPT_ROLES
+import json
 
 def is_owner(user_id):
     return user_id in OWNER_IDS
