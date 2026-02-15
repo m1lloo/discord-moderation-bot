@@ -1,6 +1,6 @@
 # Discord Moderation Bot
 
-A powerful, configurable Discord moderation bot built with discord.py 2.3+.
+A simple, configurable Discord moderation bot built with discord.py 2.3+.
 
 ## Features
 
@@ -22,7 +22,7 @@ A powerful, configurable Discord moderation bot built with discord.py 2.3+.
    ```bash
    pip install -r requirements.txt
    ```
-3. Copy `.env.example` to `.env` and configure your settings
+3. Configure your settings in `.env` and `./config/config.json`.
 4. Run the bot:
    ```bash
    python main.py
@@ -139,7 +139,7 @@ This project is licensed under the Creative Commons Attribution-NonCommercial 4.
 **No additional restrictions** — You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.
 
 ### Attribution Example
-If you use this code in your project, please include credit like:
+If you use this code in your project, please attribute:
 ```
 Discord Moderation Bot by m1lloo
 Original: https://github.com/m1lloo/discord-moderation-bot

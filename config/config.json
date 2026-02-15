@@ -1,0 +1,37 @@
+{
+    "COMMAND_PREFIX": "!",
+    "LOG_LEVEL": "INFO",
+    "OWNER_IDS":[],
+    "MODLOG_CHANNEL_ID":null,
+    "DEFAULT_EMBED_COLOR":"#2f3136",
+
+    "ENABLE_WARN":true,
+    "ENABLE_TIMEOUT":true,
+    "ENABLE_KICK":true,
+    "ENABLE_BAN":true,
+    "ENABLE_PURGE":true,
+    "ENABLE_ANTISPAM":true,
+    "ENABLE_WORD_FILTER":true,
+    "ENABLE_JOIN_LOG":true,
+
+    "WARN_ROLES":[],
+    "TIMEOUT_ROLES":[],
+    "KICK_ROLES":[],
+    "BAN_ROLES":[],
+    "PURGE_ROLES":[],
+    "ADMIN_ROLES":[],
+    "AUTOMOD_MANAGE_ROLES":[],
+    "IMMUNE_ROLES":[],
+    "AUTOMOD_EXEMPT_ROLES":[],
+
+    "SPAM_MSG_COUNT":6,
+    "SPAM_SECONDS":8,
+    "SPAM_ACTION":"warn",
+    "SPAM_TIMEOUT_DURATION":"10m",
+
+    "WORD_FILTER_ACTION":"delete",
+    "WORD_FILTER_TIMEOUT_DURATION":"30m",
+
+    "MIN_ACCOUNT_AGE_DAYS":7,
+    "ALERT_ON_LOW_ACCOUNT_AGE":true
+}
